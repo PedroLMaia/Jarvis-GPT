@@ -16,7 +16,7 @@ app.use(cors());
 
 const sleep = (milliseconds) => new Promise(resolve => setTimeout(resolve, milliseconds));
 
-app.get('/', (req, res) => {
+app.get('/inicio', (req, res) => {
   res.send('Hello World!');
 })
 
