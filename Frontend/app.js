@@ -68,7 +68,7 @@ function sendTranscriptionToServer(transcription) {
     return;
   }
 
-  fetch('https://api-jarvis.vercel.app/processar', {
+  fetch('https://jarvis-gpt-wheat.vercel.app/processar', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
