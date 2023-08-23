@@ -53,7 +53,7 @@ Node.js e Express.js para o servidor Backend.
 
 API da OpenAI para processamento de linguagem natural e respostas.
 
-## Informacoes uteis
+## Informações Úteis
 Para economizar recursos a API da OpenAI esta configurada para usar o modelo de linguagem [ text-davinci-003 ], que é mais barato que o [ ChatGPT-3.5 Turbo].
 
 Para trocar o modelo de linguagem, siga a [documentação](https://platform.openai.com/docs/guides/gpt) da OpenAI.
